@@ -1,0 +1,23 @@
+{
+  "name": "workingit",
+  "version": "1.0.0",
+  "description": "server for workinit app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/http-server/bin/http-server"
+  },
+  "author": "Robert Heeter",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.2.0",
+    "npm": "^6.14.8",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.0"
+  }
+}
