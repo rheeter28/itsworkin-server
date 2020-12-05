@@ -8,7 +8,7 @@ let validateSession = require('../middlewares/validate-session')
  //GET menu items for user
 
  //POST menu items for user
- router.post('/recipelist', validateSession, function(req, res) {
+ router.get('/recipeguide', validateSession, function(req, res) {
   
  })
 
